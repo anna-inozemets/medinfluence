@@ -83,6 +83,7 @@ img {
   width: 100%;
   padding: 4em 6em;
   overflow-y: scroll;
+  font-size: clamp(1px, 0.55vw, 10px);
 
   background-image: url(../images/article-bg.png);
   background-position: top center;
@@ -162,7 +163,7 @@ img {
 }
 .slide__container .accordeon__item-text {
   /* display: none; */
-  font-size: 8px;
+  font-size: 3em;
   line-height: 1.3em;
   padding-bottom: 1em;
 }
