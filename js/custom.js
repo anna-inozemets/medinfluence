@@ -13,9 +13,9 @@ function widthDetect(percent) {
   return (percent * width) / 100;
 }
 function setResponsiveFontSize() {
-  $('.slide__container').css({
-    'font-size': `clamp(1px, ${heightDetect(0.925925)}px,${widthDetect(0.520833)}px)`
-  });
+  // $('.slide__container').css({
+  //   'font-size': `clamp(1px, ${heightDetect(0.925925)}px,${widthDetect(0.520833)}px)`
+  // });
 }
 
 // function for action after last slide
