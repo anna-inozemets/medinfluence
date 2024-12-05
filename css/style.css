@@ -162,7 +162,7 @@ img {
 }
 .slide__container .accordeon__item-text {
   /* display: none; */
-  font-size: 3em;
+  font-size: 9px;
   line-height: 1.3em;
   padding-bottom: 1em;
 }
