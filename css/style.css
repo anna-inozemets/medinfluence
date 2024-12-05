@@ -46,9 +46,10 @@
 }
 body {
   font-family: "Century Gothic", sans-serif;
-  font-size: 1.2vw;
   font-weight: 400;
   color: var(--dark-c);
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none; 
 }
 h1, h2, h3 {
   font-family: inherit;
