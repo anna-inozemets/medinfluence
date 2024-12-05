@@ -83,7 +83,6 @@ img {
   width: 100%;
   padding: 4em 6em;
   overflow-y: scroll;
-  font-size: clamp(1px, 0.55vw, 10px);
 
   background-image: url(../images/article-bg.png);
   background-position: top center;
