@@ -162,9 +162,30 @@ img {
 }
 .slide__container .accordeon__item-text {
   /* display: none; */
-  font-size: 9px;
+  font-size: 8px;
   line-height: 1.3em;
   padding-bottom: 1em;
+}
+.slide__container .accordeon__item-text strong {
+  font-size: inherit;
+}
+.slide__container .accordeon__item-text span {
+  position: relative;
+  display: block;
+  padding-left: 1em;
+  margin-left: 1em;
+  font-size: inherit;
+}
+.slide__container .accordeon__item-text span::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  height: 0.3em;
+  aspect-ratio: 1 / 1;
+  background-color: var(--dark-c);
+  border-radius: 50%;
 }
 .slide__container .accordeon__item-text a {
   color: var(--dark-c);
