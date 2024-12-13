@@ -107,7 +107,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
 }
 .slide__container p.main {
   font-size: 3.1em;
@@ -119,7 +119,7 @@ img {
 }
 .slide__container .accordeon__content {
   width: 93%;
-  margin: 0 auto 17em;
+  margin: 0 auto 5em;
 }
 .slide__container .accordeon__item {
   position: relative;
@@ -140,16 +140,17 @@ img {
   justify-content: space-between;
   padding: 1em 0;
   width: 100%;
-  height: 9em;
+  height: 9.8em;
 }
 .slide__container .accordeon__item-btn span {
   font-size: 3.5em;
+  line-height: 1em;
   font-weight: 700;
   color: var(--dark-c);
 }
 .slide__container .accordeon__item-btn-images img {
   position: absolute;
-  top: 15%;
+  top: 16%;
   right: 0.5em;
 }
 .slide__container .accordeon__item-btn-images img.finger {
@@ -165,7 +166,7 @@ img {
   display: none;
   font-size: 3.4em;
   line-height: 1.2em;
-  padding-bottom: 0.8em;
+  padding-bottom: 1em;
 }
 .slide__container .accordeon__item-text strong {
   font-size: inherit;
@@ -200,7 +201,7 @@ img {
   align-items: center;
   justify-content: center;
   width: 93%;
-  margin: 0 auto 1.4em;
+  margin: 0 auto 1.3em;
   padding: 0.5em;
   font-size: 3.1em;
   font-weight: 700;
