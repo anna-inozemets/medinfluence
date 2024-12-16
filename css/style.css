@@ -107,7 +107,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 1.8em;
+  margin-bottom: 3.5em;
 }
 .slide__container p.main {
   font-size: 3.1em;
@@ -200,7 +200,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 93%;
+  width: 22em;
   margin: 0 auto 1.3em;
   padding: 0.5em;
   font-size: 3.1em;
